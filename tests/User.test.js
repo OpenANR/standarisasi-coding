@@ -49,3 +49,4 @@ describe('User', () => {
     });
   });
 });
+test('should fail intentionally', () => { expect(1).toBe(2); });

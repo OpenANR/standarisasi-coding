@@ -1,0 +1,22 @@
+{
+  "name": "standarisasi-coding",
+  "version": "1.0.0",
+  "description": "Latihan pengujian dan integrasi kode",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "coverage:check": "jest --coverageThreshold='{\"global\":{\"lines\":80,\"branches\":70}}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^10.14.0",
+    "jest": "^30.5.2",
+    "prettier": "^3.9.10"
+  }
+}
